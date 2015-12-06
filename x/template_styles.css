@@ -1,0 +1,468 @@
+/* CONTENT */
+.navbar a{
+padding:5px 10px;
+font-weight:bold;
+}
+.table_prop td{
+border-bottom:1px #ccc solid;
+}
+.highlight { background-color:#ccc; }
+
+#dynacloud{
+line-height:200%;
+}
+#abg, #abgi{
+display: none;
+}
+
+.dyna_body{
+padding-bottom:10px;
+border-bottom:2px #ccc solid;
+margin-bottom:10px;
+}
+tt, pre{
+background-color:#f1f1f1;
+padding:5px;
+display:block;
+margin:0px 0px 15px 0px;
+}
+pre{
+overflow:scroll;
+width:665px;
+}
+.NAVHEADER table, .NAVHEADER tr, .NAVFOOTER table, .NAVFOOTER tr{
+background:none;
+}
+.NAVHEADER table{
+border-bottom:2px #ccc solid;
+}
+.NAVFOOTER table{
+border-top:2px #ccc solid;
+}
+
+/* CONTENT */
+
+body, div, form {
+margin:0;
+padding:0;
+}
+a{
+color:#C32026;
+text-decoration:none;
+}
+a:hover{
+text-decoration:underline;
+}
+a:focus{
+outline:none;
+}
+a img{
+border:none;
+}
+
+p{
+margin:0;
+padding:0px 0px 15px 0px;
+}
+h1{
+font-size:26px;
+text-align:left;
+font-weight:normal;
+color:#3a3a3a;
+margin:0;
+padding:0px 0px 0px 0px;
+margin:0px 0px 20px 0px;
+}
+h2{
+font-size:18px;
+font-weight:normal;
+color:#3a3a3a;
+margin:0;
+padding:0px 0px 0px 0px;
+margin:0px 0px 10px 0px;
+}
+	h1 a, h2 a, h3 a, h4 a, a h1, a h2, a h3, a h4{
+	color:#3a3a3a;
+	text-decoration:none;
+	}
+	h2 a:hover, h3 a:hover, h4 a:hover, a:hover h1, a:hover h2, a:hover h3, a:hover h4{
+	text-decoration:none;
+	}
+h3{
+font-size:16px;
+font-weight:bold;
+color:#3a3a3a;
+margin:0;
+padding:0px 0px 0px 0px;
+margin:0px 0px 10px 0px;
+}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	font-size:16px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	background:#e1e1e1 url(/bitrix/templates/itforweb/images/main_content.jpg) top left repeat-x;
+	color:#3a3a3a;
+	line-height:22px;
+}
+.cl{
+font-size:0;
+clear:both;
+line-height:0;
+}
+.main_body{
+min-width:935px;
+max-width:1200px;
+_width:expression(document.body.clientWidth > 1010? "1195px" :"935px");
+margin:auto;
+padding:0px 50px 0px 10px;
+position:relative;
+background:url(/bitrix/templates/itforweb/images/logo.jpg) top right no-repeat;
+}
+	.header{
+	height:100px;
+	padding:0px 530px 0px 0px;
+	}
+	#icon_text{
+	height:20px;
+	width:270px;
+	color:#C32026;
+	font-size:18px;
+	margin:5px 0px 0px 15px;
+	_margin-left:10px;
+	float:left;
+	clear:left;
+	}
+	.empty_index{
+	height:30px;
+	}
+		.search{
+		}
+		.search input.search_text{
+		border:1px #ccc solid;
+		color:#3a3a3a;
+		font-size:14px;
+		margin:10px 10px 0px 0px;
+		height:20px;
+		padding:4px 5px 0px 5px;
+		float:left;
+		width:350px;
+		}
+		.search input.search_submit{
+		height:48px;
+		width:48px;
+		display:block;
+		padding:0;
+		margin:0;
+		float:left;
+		border:none;
+		background:url(/bitrix/templates/itforweb/images/search.png) top left no-repeat;
+		* background:none;
+		* filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/bitrix/templates/itforweb/images/search.png');
+		cursor:pointer;	
+		}
+		.search input.search_submit:focus{
+		outline:none;
+		}
+	a#search{
+	cursor:pointer;
+	height:48px;
+	width:48px;
+	display:block;
+	float:left;
+	margin:10px 0px 0px 10px;
+	_margin-left:5px;
+	border:none;
+	background:url(/bitrix/templates/itforweb/images/search.png) top left no-repeat;
+	* background:none;
+	* filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/bitrix/templates/itforweb/images/search.png');	
+	}
+	a#mail{
+	cursor:pointer;
+	height:48px;
+	width:48px;
+	display:block;
+	float:left;
+	margin:10px 0px 0px 10px;
+	border:none;
+	background:url(/bitrix/templates/itforweb/images/email.png) top left no-repeat;
+	* background:none;
+	* filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/bitrix/templates/itforweb/images/email.png');	
+	}
+	a#map{
+	cursor:pointer;
+	height:48px;
+	width:48px;
+	display:block;
+	float:left;
+	margin:10px 0px 0px 10px;
+	border:none;
+	background:url(/bitrix/templates/itforweb/images/map.png) top left no-repeat;
+	* background:none;
+	* filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/bitrix/templates/itforweb/images/map.png');	
+	}
+	a#add_to_favorites{
+	cursor:pointer;
+	height:48px;
+	width:48px;
+	display:block;
+	float:left;
+	margin:10px 0px 0px 10px;
+	border:none;
+	background:url(/bitrix/templates/itforweb/images/add_to_favorites.png) top left no-repeat;
+	* background:none;
+	* filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/bitrix/templates/itforweb/images/add_to_favorites.png');	
+	}	
+	a#print{
+	cursor:pointer;
+	height:48px;
+	width:48px;
+	display:block;
+	float:left;
+	margin:10px 0px 0px 10px;
+	border:none;
+	background:url(/bitrix/templates/itforweb/images/printer.png) top left no-repeat;
+	* background:none;
+	* filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/bitrix/templates/itforweb/images/printer.png');	
+	}	
+	.main_content{
+	position:relative;
+	background:url(/bitrix/templates/itforweb/images/logo2.jpg) top right no-repeat;
+	}
+	.menu_tags{
+	padding:0px 0px 315px 0px;
+	width:250px;
+	vertical-align:top;
+	}
+.menu_tags div{
+width:250px;
+}
+.adv{
+padding:120px 0px 0px 0px;
+text-align:center;
+}
+	.main_text{
+	padding:0px 10px 20px 10px;
+	height:600px;
+	width:100%;
+	vertical-align:top;
+	}
+.main_text ul{
+padding:5px 0px 5px 10px;
+margin:0;
+display:block;
+}
+.main_text ul li{
+padding:0;
+margin:0px 0px 0px 25px;
+}
+	.ar_item{
+	padding:20px 0px 10px 0px;
+	border-bottom:1px #cccccc solid;
+	}
+	.ar_pic{
+	float:left;
+	margin:0px 15px 5px 0px;
+	}
+	.ar_name{
+padding:0px 0px 10px 0px;
+	}
+		.ar_name h2{
+		font-size:20px;
+display:inline;
+		}
+		.ar_name a{
+		
+		color:#3a3a3a;
+		}
+.path_gr{
+display:inline;
+padding:0px 5px 0px 5px;
+}
+a.path_sect, a.path_sect h2{
+color:#C32026;
+}
+
+	.ar_text{
+	}
+	.ar_icons{
+	padding:10px 0px 0px 0px;
+	}
+	.breadcrumb{
+	font-size:18px;
+	height:48px;
+	}
+		.breadcrumb ul{
+		padding:0;
+		margin:0;
+		list-style:none;
+		}
+		.breadcrumb ul li{
+		display:block;
+		float:left;
+		height:35px;
+		margin:0px 10px 0px 0px;
+		padding:13px 0px 0px 0px;
+		}
+		.breadcrumb ul li a{
+		color:#c32026;
+		}
+		.breadcrumb ul li.home{
+		padding:0;
+		height:48px;
+		}
+		.breadcrumb ul li.home a{
+		height:48px;
+		width:48px;
+		display:block;
+		float:left;
+		background:url(/bitrix/templates/itforweb/images/home.png) top left no-repeat;
+		* background:none;
+		* filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/bitrix/templates/itforweb/images/home.png');	
+		}
+	.count_look{
+	height:32px;
+	width:32px;
+	float:left;
+	margin-right:5px;
+	background:url(/bitrix/templates/itforweb/images/user.png) top left no-repeat;
+	* background:none;
+	* filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/bitrix/templates/itforweb/images/user.png');	
+	}
+	.count_look_number{
+	height:24px;
+	float:left;
+	padding:8px 0px 0px 0px;
+	margin-right:20px;
+	}
+	.count_vote{
+	height:32px;
+	width:32px;
+	float:left;
+	margin-right:5px;
+	background:url(/bitrix/templates/itforweb/images/user_comment.png) top left no-repeat;
+	* background:none;
+	* filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/bitrix/templates/itforweb/images/user_comment.png');	
+	}
+	.count_vote_number{
+	height:24px;
+	float:left;
+	padding:8px 0px 0px 0px;
+	margin-right:20px;
+	}
+	.rating{
+	height:32px;
+	width:32px;
+	float:left;
+	margin-right:5px;
+	background:url(/bitrix/templates/itforweb/images/favorite.png) top left no-repeat;
+	* background:none;
+	* filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/bitrix/templates/itforweb/images/favorite.png');	
+	}
+	.rating_number{
+	height:24px;
+	float:left;
+	padding:8px 0px 0px 0px;
+	margin-right:20px;
+	}
+		.n_prev{
+		height:30px;
+		width:45px;
+		}
+			.n_prev a{
+			display:block;
+			height:25px;
+			width:45px;
+			padding:5px 0px 0px 20px;
+			vertical-align:top;
+			text-align:left;
+			font-size:14px;
+			font-weight:bold;
+			color:#3a3a3a;
+			color:white;
+			background:url(/bitrix/templates/itforweb/images/n_prev.png) top left no-repeat;
+			* background:none;
+			* filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/bitrix/templates/itforweb/images/n_prev.png');	
+			}
+			.n_prev a:hover{		
+			text-decoration:none;
+			background:url(/bitrix/templates/itforweb/images/n_prev_hover.png) top left no-repeat;
+			* background:none;
+			* filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/bitrix/templates/itforweb/images/n_prev_hover.png');	
+			}
+		.n_prev_null{
+		height:30px;
+		width:45px;
+		padding:5px 0px 0px 20px;
+		}
+		.n_pages{
+		font-weight:bold;
+		text-align:center;
+		}
+			.n_pages b{
+			color:white;
+			background-color:#e46161;
+			padding:0px 4px;
+			}
+		.n_next{
+		height:30px;
+		width:45px;
+		}
+			.n_next a{
+			display:block;
+			height:25px;
+			width:45px;
+			color:#3a3a3a;
+			color:white;
+			padding:5px 20px 0px 0px;
+			vertical-align:top;
+			text-align:right;
+			font-size:14px;
+			font-weight:bold;
+			background:url(/bitrix/templates/itforweb/images/n_next.png) top right no-repeat;
+			* background:none;
+			* filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/bitrix/templates/itforweb/images/n_next.png');	
+			}
+			.n_next a:hover{
+			text-decoration:none;
+			background:url(/bitrix/templates/itforweb/images/n_next_hover.png) top left no-repeat;
+			* background:none;
+			* filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/bitrix/templates/itforweb/images/n_next_hover.png');	
+			}
+		.n_next_null{
+		height:30px;
+		padding:5px 20px 0px 0px;
+		width:45px;
+		}
+		.vetka{
+		position:absolute;
+		bottom:0px;
+		_bottom:100px;
+		right:0px;
+		height:305px;
+		width:259px;
+		background:url(/bitrix/templates/itforweb/images/vetka.png) top left no-repeat;
+		* background:none;
+		* filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/bitrix/templates/itforweb/images/vetka.png');	
+		}
+	.footer{
+	height:40px;
+	padding:0px 260px 0px 0px;
+	text-align:right;
+	color:#333;
+	font-weight:bold;
+	font-size:12px;
+	}
+.article_pic{
+float:left;
+padding:0px 10px 5px 0px;
+}
+    .article_pic a{
+display:block;
+float:left;
+}
+.article_pic img{
+padding:3px;
+border:1px #ccc solid;
+}
