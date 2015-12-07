@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" >
+  <link rel="stylesheet" type="text/css" href="script/jquery/jquery-ui.css" >
+  <script src="script/jquery/jquery-1.11.3.js"></script>
+  <script src="script/jquery/jquery-ui.min.js"></script>
+  <script src="script/js.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <title>Visual Board</title>
+</head>
+<body>
+  <script>
+  $(function() {
+  $( document ).tooltip();
+  });
+  </script>
+<div class="wrapper">
+  <div class="photo" title="Здесь может быть фото">
+  </div>
+  <div class="new_stickers_place">
+
+  </div>
+<div class="modules">
+  <ul>
+  <li  title="Прикрепить аудио" class="audio"></li>
+  <li title="Прикрепить фото" class="video"></li>
+  <li title="Добавить дополнительный стикер" class="add_sticker"></li>
+  <li title="Писать текст на дополнительнх стикерах. Кликните на тот стикер, которому хотите добавить текст." class="text_sticker"></li>
+  <li title="Кисточка для рисования" class="paint"></li>
+  <li title="Писать текст на основных стикерах" class="stickers"></li>
+  <li title="Вы можете менять название доски" class="border_name"></li>
+  </ul>
+</div>
+<div class="border_name_title">
+</div>
+<div class="change_color">
+  <ul>
+    <li title="Задать белый цвет доски" class="white"></li>
+    <li title="Задать синий цвет доски" class="blue"></li>
+    <li title="Задать желтый цвет доски" class="yellow"></li>
+    <li title="Задать розовый цвет доски" class="pink"></li>
+    <li title="Задать фиолетовый цвет доски" class="violet"></li>
+    <li title="Задать цвет самостоятельно"><input type="color" class="color" id="color"></li>
+  </ul>
+</div>
+<div class="num_of_sticker">
+  <p title="Номер стикера"></p>
+</div>
+<div class="current_page_number">
+  <p title=Страница></p>
+</div>
+<div class="clear">
+  <ul>
+    <li title="Очистить доску"></li>
+  </ul>
+</div>
+<div class="sticker" title="Ваш основной стикер">
+</div>
+<div class="up" title="Следующий стикер"></div>
+<div class="down" title="Предыдущий стикер"></div>
+<div class="stickers_position_info" title="Переместите данный стикер, чтоб добраться к предыдущему.">
+  <p>Стикеры будут накладываться друг на друга</p>
+</div>
+<div class="info">
+  <ul>
+    <li class="c1" title="Влияние классической музыки на организм"></li>
+    <li class="c2" title="Влияние рок-музыки на человека"></li>
+  </ul>
+</div>
+<div class="info_2">
+  <ul>
+  <li class="c3" title="Для сохранения здоровья швейцарские медики призывают играть на пианино."><li>
+    <li class="c4" title="Почему барабанный бой оказывает лечебное воздействие?"><li>
+  </ul>
+</div>
+<div class="audioplayer">
+  <audio title="Кликните, чтоб воспроизвести аудио" src="" controls></audio>
+</div>
+</div>
+<div class="classic_info" title="Классическая музыка">
+  <p>
+    <img src="img/classic_inf.jpg" alt="Classic music">
+Небольшое исследование, результаты которого были опубликованы на сайте Американской ассоциации трудотерапии, показало, что классическая музыка имеет
+   некие реабилитационные свойства.
+Эксперимент проводился при участии 16 пациентов, перенесших инсульт правого полушария головного мозга.
+ На протяжении одной недели исследователи вели наблюдение за тем, как классическая музыка, белый шум и тишина
+  влияют на внимательность и визуальное восприятие каждого больного. Полученные результаты фиксировались учеными
+  при помощи специально разработанных визуально-аналоговых шкал (ВАШ, обычно используются для определения степени
+   интенсивности боли). Как и в случаях с креативностью и вождением, тишина не оправдала ожиданий ученых, а вот
+   классическая музыка значительно увеличила длительность концентрации внимания пациентов и улучшила их визуальную
+    память
+  </p>
+    <input type="button" value="Закрыть" title="Вернуться на главную" id="classic_close" class="btn btn-primary btn-lg">
+  <div class="rock" title="Рок-музыка">
+      <img src="img/rock_inf.jpg" alt="Rock music">
+    <p>
+    Рок-музыка, как известно, возникла на основе негритянских идолопоклонений, первобытных мистических песнопений.
+    Африканские колдуны неплохо знали гипнотизирующее воздействие ритмической громкой музыки. Свойственный ей бит-ритм
+     вызывает в организме определенные изменения — меняет пульс, дыхание, содержание сахара в крови, возникает нервное
+     возбуждение: «...когда удары музыкального ритма начинают вдруг совпадать с ударами вашего сердца, создается
+      впечатление, что внутри вас раскачивается тяжелый колокольный язык, который лупит о ваши ребра, о все ваши клетки,
+       и все гудит и звенит, и не то вы сейчас
+     сорветесь с места и начнете неистовствовать в своих движениях, не то взорветесь и разлетитесь на мелкие части </p>
+       <input type="button" value="Закрыть" title="Вернуться на главную" id="rock_close" class="btn btn-primary btn-lg">
+  </div>
+  <div class="pian" title="Игра на пианино">
+      <img src="img/pian_inf.jpg" alt="Pian">
+    <p>
+  Для сохранения здоровья швейцарские медики призывают играть на пианино. Всего лишь полгода музыкальных
+  упражнений уменьшают риски, сокращающие продолжительность жизни.
+134 человека преклонного возраста приняли участие в исследованиях. Создали две группы. Первая группа один
+ раз в неделю занималась игрой на пианино. Занятие длилось один час.
+Из первой группы многие получали азы музыкальной грамоты впервые.
+Вторая группа не занималась игрой на пианино.
+    </p>
+    <input type="button" value="Закрыть" title="Вернуться на главную" id="pian_close" class="btn btn-primary">
+  </div>
+  <div class="barab" title="Влияние барабана на организм">
+    <img src="img/barab_inf.jpg" alt="barab">
+    <p>
+      Применение барабанного боя для снятия напряжения
+      Одно из психологических направлений применения барабанного боя – облегчение эмоционального напряжения,
+       душевной боли, гнева и стресса для таких категорий людей:
+      - Ветераны с посттравматическими расстройствами;
+      - Подростки как «группа риска»;
+      - Работники крупных корпораций, страдающие ежедневным стрессом.
+      В случаях с алкоголизмом или наркотической зависимостью терапевтический барабанный бой имеет целью укрепление
+       коммуникативных навыков и усиление социальной активности.
+      Барабаны использовались для лечения ряда основных ментальных расстройств, таких как маниакально-депрессивный
+       психоз и раздвоение личности; для повышение самооценки и развития чувства удовлетворенности.
+    </p>
+    <input type="button" value="Закрыть" title="Вернуться на главную" id="barab_close" class="btn btn-primary">
+  </div>
+  <div class="all_stickers">
+<div class="add_sticker_text">
+  <input type="text" placeholder="Заполните текстом Ваш стикер" id="sticker_text" class="text-primary col-xs-4">
+  <br><br>
+  <input type="button" value="Написать" id="send_text" class="btn btn-primary">
+  <input type="button" value="Готово" id="ok" class="btn btn-primary">
+    </div>
+    <div class="add_new_sticker_text">
+      <input type="text" placeholder="Заполните текстом стикер" id="new_sticker_text" class="text-primary col-xs-4">
+      <br><br>
+      <input type="button" value="Написать" id="new_send_text" class="btn btn-primary">
+      <input type="button" value="Готово" id="new_ok" class="btn btn-primary">
+      <div class="text"><p class="text-primary">Если вы выбрали нужный вам стикер, начните заполнять его текстом.</p>
+      <p class="sticker_num text-primary">&nbsp;</p>
+      <input type="button" value="Удалить стикер" id="del_sticker" class="btn btn-danger">
+      </div>
+        </div>
+</div>
+
+<div class="input">
+  <input type="text" placeholder="Название доски" id="text" class="text-primary col-xs-4 table_name_input">
+  <br><br>
+  <input type="button" value="Назвать" id="send" class="btn btn-primary">
+  <input type="button" value="Готово" id="ok" class="btn btn-primary">
+</div>
+<div class="photo_gallery">
+  <img class="photo_1 img-circle" src="img/photo_1.jpg" alt="">
+  <img class="photo_2 img-circle" src="img/photo_2.jpg" alt="">
+  <img class="photo_3 img-circle" src="img/photo_3.jpg" alt="">
+  <img class="photo_4 img-circle" src="img/photo_4.jpg" alt="">
+  <img class="photo_5 img-circle" src="img/photo_5.jpg" alt="">
+  <img class="photo_6 img-circle" src="img/photo_6.jpg" alt="">
+  <img class="photo_7 img-circle" src="img/photo_7.jpg" alt="">
+</div>
+</div>
+</body>
+</html>

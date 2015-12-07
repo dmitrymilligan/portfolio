@@ -1,0 +1,333 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #c0c0c0;
+}
+li {
+  list-style-type: none;
+  cursor: pointer;
+}
+.wrapper {
+  position: relative;
+  height: 400px;
+  width: 950px;
+  background-color: white;
+  margin: 80px auto;
+  border: 15px solid;
+  border-image: url(../img/brd_img.jpg) 40 35 40 35 repeat;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+.photo {
+  position: absolute;
+  height: 297px;
+  width: 240px;
+  margin-left: 44px;
+  margin-top: 38px;
+}
+.modules, .modules ul {
+  position: absolute;
+  height: 269px;
+  width: 40px;
+}
+.modules li {
+  height: 32px;
+  width: 30px;
+  left: -35px;
+}
+.audio {
+  background: url(../img/audio.png) no-repeat;
+}
+.video {
+  background: url(../img/video.png) no-repeat;
+}
+.add_sticker {
+  background: url(../img/text.png) no-repeat;
+}
+.add_sticker:hover .stickers_position_info {
+  display: block;
+}
+.paint {
+  background: url(../img/paint.png) no-repeat;
+}
+.stickers {
+  background: url(../img/stickers.png) no-repeat;
+}
+.text_sticker {
+  background: url(../img/stickers_text.png) no-repeat;
+}
+.border_name {
+  background: url(../img/border_name.png) no-repeat;
+}
+.add_new_sticker_text .text {
+  position: absolute;
+  clear: both;
+  top: 120px;
+}
+.change_color {
+  position: absolute;
+  width: 238px;
+  height: 36px;
+  margin-top: 345px;
+  margin-left: 244px;
+}
+.change_color ul {
+  width: 175px;
+  height: 30px;
+}
+.change_color li {
+  float: left;
+
+  height: 17px;
+  width: 17px;
+  border-radius: 100%;
+}
+.color {
+  border: 2px solid white;
+border-radius: 100%;
+}
+.white {
+  background: url(../img/white.png) no-repeat;
+  border: 2px solid black;
+}
+.blue {
+  border: 2px solid white;
+  background: url(../img/blue.png) no-repeat;
+}
+.yellow {
+  border: 2px solid white;
+  background: url(../img/yellow.png) no-repeat;
+}
+.pink {
+  border: 2px solid white;
+  background: url(../img/pink.png) no-repeat;
+}
+.violet {
+  border: 2px solid white;
+  background: url(../img/violet.png) no-repeat;
+}
+.classic {
+  background: url(../img/classic_big.jpg) no-repeat;
+  height: 662px;
+  width: 328px;
+  margin: -385px auto;
+}
+.audioplayer {
+  position: absolute;
+  height: 25px;
+  width: 295px;
+  margin: 351px 0 0 531px;
+}
+audio {
+  height: 24px;
+  width: 290px;
+}
+
+.num_of_sticker, .current_page_number {
+font-family: Trebuchet MS,Tahoma,Verdana,Arial,sans-serif;
+font-size: 1.1em;
+color: #1c94c4;
+position: absolute;
+height: 30px;
+}
+.num_of_sticker {
+  width: 129px;
+  margin: 296px 0 0 660px;
+}
+.current_page_number {
+  width: 100px;
+  margin: 278px 0 0 660px
+}
+.c1 {
+  background: url(../img/class.png) no-repeat;
+}
+.c2 {
+  background: url(../img/rock.png) no-repeat;
+}
+.c3 {
+  background: url(../img/pian.png) no-repeat;
+}
+.c4 {
+  background: url(../img/barab.jpg) no-repeat;
+}
+.c1:hover {
+  background: url(../img/class_hover.png) no-repeat;
+}
+.c2:hover {
+  background: url(../img/rock_hover.png) no-repeat;
+}
+.c3:hover {
+  background: url(../img/pian_hover.jpeg) no-repeat;
+}
+.c4:hover {
+  background: url(../img/barab_hover.jpg) no-repeat;
+}
+.sticker_num {
+  height: 10%;
+  width: 28%;
+  left: 255px;
+  position: absolute;
+}
+#del_sticker {
+left: 218px;
+top: 140px;
+position: absolute;
+}
+.stickers_position_info {
+  position: absolute;
+  font-family: Trebuchet MS,Tahoma,Verdana,Arial,sans-serif;
+  font-size: 1em;
+  color: #1c94c4;
+  height: 41px;
+  width: 200px;
+  top: 250px;
+  left: 332px;
+}
+.info_2 ul {
+  width: 170px;
+  height: 300px;
+  margin-top: -296px;
+  margin-left: 403px;
+}
+.info_2 li {
+  width: 181px;
+  height: 170px;
+  margin-top: -71px;
+}
+.info {
+  height: 300px;
+  width: 810px;
+  margin-left: 90px;
+}
+#point0 {
+  transform: scale(1,-1);
+}
+.info ul {
+  width: 199px;
+  height: 350px;
+  margin-top: -456px;
+  margin-left: 100px;
+}
+.info li {
+
+  height: 170px;
+  width: 86px;
+  margin-left: 100px;
+}
+.info_2 {
+  position: absolute;
+  height: 300px;
+  width: 300px;
+}
+.border_name_title {
+  word-wrap: break-word;
+  position: absolute;
+  font-family: Trebuchet MS,Tahoma,Verdana,Arial,sans-serif;
+	font-size: 1.1em;
+  color: #1c94c4;
+  height: 34px;
+  width: 195px;
+  margin-left: 112px;
+  margin-top: -4px;
+}
+.classic_info img, .rock img, .pian img, .barab img {
+  float: left;
+  margin: 15px 15px;
+}
+.sticker {
+  word-wrap: break-word;
+  overflow-y: scroll;
+  font-family: Trebuchet MS,Tahoma,Verdana,Arial,sans-serif;
+  font-size: 1.1em;
+  color: #1c94c4;
+  position: absolute;
+  background: url(../img/sticker_bg.jpg) no-repeat;
+  height: 220px;
+  width: 180px;
+  margin-left: 627px;
+  margin-top: 1px;
+}
+.new_sticker {
+  position: absolute;
+  word-wrap: break-word;
+  overflow-y: scroll;
+  font-family: Trebuchet MS,Tahoma,Verdana,Arial,sans-serif;
+  font-size: 1.1em;
+  color: #1c94c4;
+  background: url(../img/sticker_bg.jpg) no-repeat;
+  height: 220px;
+  width: 180px;
+}
+.secondary_sticker {
+  position: absolute;
+  font-family: Trebuchet MS,Tahoma,Verdana,Arial,sans-serif;
+  font-size: 1.1em;
+  color: #1c94c4;
+  background: url(../img/sticker_bg.jpg) no-repeat;
+  word-wrap: break-word;
+  overflow-y: scroll;
+  height: 220px;
+  width: 180px;
+}
+.photo_gallery img{
+  margin: 5px;
+  float: left;
+  border-radius: 5px;
+}
+.clear {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  margin-top: 354px;
+}
+.clear ul {
+
+}
+.clear li {
+  background: url(../img/clear.png) no-repeat;
+  height: 24px;
+  width: 29px;
+  margin-left: -30px;
+  margin-top: -14px;
+}
+.up, .down {
+  position: absolute;
+  height: 30px;
+  width: 35px;
+}
+.up {
+  background: url(../img/up.png) no-repeat;
+  margin-top: -139px;
+  margin-left: 659px;
+  margin: 316px 0 0 659px;
+}
+.down {
+  background: url(../img/down.png) no-repeat;
+  height: 24px;
+  width: 20px;
+  margin: 316px 0 0 635px;
+}
+#sticker_text {
+  height: 30px;
+  width: 300px;
+}
+.table_name_input {
+  width: 300px;
+  height: 30px;
+}
+.new_stickers_place {
+  position: absolute;
+    margin: 0 0 0 335px;
+    height: 276px;
+
+}
+#new_sticker_text {
+  height: 30px;
+  width: 300px;
+}
